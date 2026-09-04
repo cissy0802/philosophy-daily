@@ -5,43 +5,47 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>哲学经典详解：环境哲学 · Day 39 — Philosophy</title>
+<meta content="#171613" name="theme-color"/>
 <style>
+/* bigcat-dark v1 */
+:root{color-scheme:dark}
+
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,"Noto Serif SC","Songti SC","Segoe UI",Roboto,Georgia,serif;background:#faf9f6;color:#2d3436;line-height:1.85}
+body{font-family:-apple-system,"Noto Serif SC","Songti SC","Segoe UI",Roboto,Georgia,serif;background:#171613;color:#bcc3c5;line-height:1.85}
 .container{max-width:780px;margin:0 auto;padding:24px 22px 60px}
-header{text-align:center;padding:56px 0 32px;border-bottom:1px solid #e8e3d8;margin-bottom:36px}
-header .day-tag{display:inline-block;font-size:0.78rem;letter-spacing:3px;color:#a29bfe;font-weight:600;background:#f3f0ff;padding:4px 14px;border-radius:20px;margin-bottom:14px}
-header h1{font-size:2rem;font-weight:800;color:#1a1a2e;letter-spacing:2px;line-height:1.4}
-header .meta{margin-top:14px;font-size:0.92rem;color:#636e72;font-style:italic}
-header .subtitle{margin-top:6px;font-size:0.88rem;color:#8b7355}
-.intro{background:#fff;border-radius:12px;padding:22px 26px;margin-bottom:32px;box-shadow:0 1px 8px rgba(0,0,0,0.04);border-left:3px solid #c9b27a;font-size:0.96rem;color:#4a4a4a}
-.card{background:#fff;border-radius:12px;padding:32px 30px;margin-bottom:28px;box-shadow:0 2px 12px rgba(0,0,0,0.05);position:relative;overflow:hidden}
-.card::before{content:"";position:absolute;top:0;left:0;width:4px;height:100%;background:linear-gradient(180deg,#c9b27a,#a29bfe)}
+header{text-align:center;padding:56px 0 32px;border-bottom:1px solid #373227;margin-bottom:36px}
+header .day-tag{display:inline-block;font-size:0.78rem;letter-spacing:3px;color:#a29bfe;font-weight:600;background:#110e1d;padding:4px 14px;border-radius:20px;margin-bottom:14px}
+header h1{font-size:2rem;font-weight:800;color:#c1c1d5;letter-spacing:2px;line-height:1.4}
+header .meta{margin-top:14px;font-size:0.92rem;color:#8d989c;font-style:italic}
+header .subtitle{margin-top:6px;font-size:0.88rem;color:#ab9375}
+.intro{background:#0a0a0a;border-radius:12px;padding:22px 26px;margin-bottom:32px;box-shadow:0 1px 8px rgba(0,0,0,0.04);border-left:3px solid #8f7840;font-size:0.96rem;color:#aeaeae}
+.card{background:#0a0a0a;border-radius:12px;padding:32px 30px;margin-bottom:28px;box-shadow:0 2px 12px rgba(0,0,0,0.05);position:relative;overflow:hidden}
+.card::before{content:"";position:absolute;top:0;left:0;width:4px;height:100%;background:linear-gradient(180deg,#887139,#171073)}
 .thinker{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px}
-.thinker .name{font-size:1.4rem;font-weight:700;color:#1a1a2e;letter-spacing:1px}
-.thinker .tradition{font-size:0.78rem;color:#fff;background:#a29bfe;padding:3px 10px;border-radius:12px;font-weight:500}
-.thinker .tradition.east{background:#c9b27a}
-.source{font-size:0.85rem;color:#8b7355;font-style:italic;margin-bottom:18px;padding-bottom:14px;border-bottom:1px dashed #e8e3d8}
+.thinker .name{font-size:1.4rem;font-weight:700;color:#c1c1d5;letter-spacing:1px}
+.thinker .tradition{font-size:0.78rem;color:#ffffff;background:#171073;padding:3px 10px;border-radius:12px;font-weight:500}
+.thinker .tradition.east{background:#887139}
+.source{font-size:0.85rem;color:#ab9375;font-style:italic;margin-bottom:18px;padding-bottom:14px;border-bottom:1px dashed #373227}
 .section{margin-top:20px}
-.section .label{display:inline-block;font-size:0.82rem;font-weight:700;color:#a29bfe;letter-spacing:1.5px;margin-bottom:8px;padding:2px 0;border-bottom:2px solid #f3f0ff}
-.section.east .label{color:#8b7355;border-color:#f5efe3}
-.section .quote{font-size:1rem;color:#2d3436;background:#faf7f0;padding:14px 18px;border-radius:8px;border-left:3px solid #c9b27a;font-style:italic;line-height:1.7}
-.section p{font-size:0.95rem;color:#4a4a4a;margin-top:4px}
-.section .scenario{margin-top:8px;padding:10px 14px;background:#f9f8f5;border-radius:6px;font-size:0.92rem;color:#555}
-.section .scenario strong{color:#1a1a2e}
-.essence{background:#f8f7fc;padding:12px 16px;border-radius:8px;font-size:0.95rem;color:#3a3a5a;border-left:3px solid #a29bfe;margin-bottom:8px}
-.english{background:#f8f7fc;padding:14px 18px;border-radius:8px;font-size:0.9rem;color:#555;font-style:italic;line-height:1.65;font-family:Georgia,"Times New Roman",serif}
-.question{background:linear-gradient(135deg,#fff8e7,#fef3d7);padding:14px 18px;border-radius:8px;font-size:0.95rem;color:#5a4a1a;font-weight:500;border-left:3px solid #d4a843}
+.section .label{display:inline-block;font-size:0.82rem;font-weight:700;color:#a29bfe;letter-spacing:1.5px;margin-bottom:8px;padding:2px 0;border-bottom:2px solid #110e1d}
+.section.east .label{color:#ab9375;border-color:#2b2519}
+.section .quote{font-size:1rem;color:#bcc3c5;background:#1d1a13;padding:14px 18px;border-radius:8px;border-left:3px solid #8f7840;font-style:italic;line-height:1.7}
+.section p{font-size:0.95rem;color:#aeaeae;margin-top:4px}
+.section .scenario{margin-top:8px;padding:10px 14px;background:#181714;border-radius:6px;font-size:0.92rem;color:#a6a6a6}
+.section .scenario strong{color:#c1c1d5}
+.essence{background:#111015;padding:12px 16px;border-radius:8px;font-size:0.95rem;color:#9e9ebe;border-left:3px solid #171073;margin-bottom:8px}
+.english{background:#111015;padding:14px 18px;border-radius:8px;font-size:0.9rem;color:#a6a6a6;font-style:italic;line-height:1.65;font-family:Georgia,"Times New Roman",serif}
+.question{background:linear-gradient(135deg,#27200f,#372c10);padding:14px 18px;border-radius:8px;font-size:0.95rem;color:#daca9a;font-weight:500;border-left:3px solid #c39732}
 .question::before{content:"💭 ";margin-right:4px}
-.diagram{background:#fff;border-radius:12px;padding:26px 30px;margin-bottom:28px;box-shadow:0 2px 12px rgba(0,0,0,0.05)}
-.diagram .label{display:inline-block;font-size:0.82rem;font-weight:700;color:#8b7355;letter-spacing:1.5px;margin-bottom:14px;border-bottom:2px solid #f5efe3}
+.diagram{background:#0a0a0a;border-radius:12px;padding:26px 30px;margin-bottom:28px;box-shadow:0 2px 12px rgba(0,0,0,0.05)}
+.diagram .label{display:inline-block;font-size:0.82rem;font-weight:700;color:#ab9375;letter-spacing:1.5px;margin-bottom:14px;border-bottom:2px solid #2b2519}
 .diagram figure{text-align:center;margin:0}
-.diagram figcaption{margin-top:10px;font-size:0.86rem;color:#8b7355;font-style:italic}
-.deep{background:#fff;border-radius:12px;padding:28px 30px;margin-top:36px;box-shadow:0 2px 12px rgba(0,0,0,0.05)}
-.deep h2{font-size:1.2rem;color:#1a1a2e;margin-bottom:16px;letter-spacing:1px}
-.deep details{margin-bottom:12px;border-bottom:1px solid #eee;padding-bottom:10px}
-.deep summary{cursor:pointer;font-weight:600;color:#5a4a7a;font-size:0.96rem}
-.deep details div{margin-top:8px;font-size:0.92rem;color:#555;line-height:1.75}
+.diagram figcaption{margin-top:10px;font-size:0.86rem;color:#ab9375;font-style:italic}
+.deep{background:#0a0a0a;border-radius:12px;padding:28px 30px;margin-top:36px;box-shadow:0 2px 12px rgba(0,0,0,0.05)}
+.deep h2{font-size:1.2rem;color:#c1c1d5;margin-bottom:16px;letter-spacing:1px}
+.deep details{margin-bottom:12px;border-bottom:1px solid #202020;padding-bottom:10px}
+.deep summary{cursor:pointer;font-weight:600;color:#9383b3;font-size:0.96rem}
+.deep details div{margin-top:8px;font-size:0.92rem;color:#a6a6a6;line-height:1.75}
 @media(max-width:600px){
   header h1{font-size:1.45rem;letter-spacing:1px}
   .container{padding:16px 14px 40px}
@@ -198,34 +202,34 @@ header .subtitle{margin-top:6px;font-size:0.88rem;color:#8b7355}
 <div class="label">图解 · 因陀罗网（相即之网）</div>
 <figure>
 <svg aria-label="因陀罗网示意：结点互摄" role="img" style="max-width:420px" viewbox="0 0 360 220" width="100%">
-<line stroke="#d9d2c2" stroke-width="1" x1="60" x2="180" y1="50" y2="50"></line>
-<line stroke="#d9d2c2" stroke-width="1" x1="180" x2="300" y1="50" y2="50"></line>
-<line stroke="#d9d2c2" stroke-width="1" x1="60" x2="180" y1="110" y2="110"></line>
-<line stroke="#d9d2c2" stroke-width="1" x1="180" x2="300" y1="110" y2="110"></line>
-<line stroke="#d9d2c2" stroke-width="1" x1="60" x2="180" y1="170" y2="170"></line>
-<line stroke="#d9d2c2" stroke-width="1" x1="180" x2="300" y1="170" y2="170"></line>
-<line stroke="#d9d2c2" stroke-width="1" x1="60" x2="60" y1="50" y2="170"></line>
-<line stroke="#d9d2c2" stroke-width="1" x1="180" x2="180" y1="50" y2="170"></line>
-<line stroke="#d9d2c2" stroke-width="1" x1="300" x2="300" y1="50" y2="170"></line>
-<line stroke="#ece6d8" stroke-width="1" x1="60" x2="180" y1="50" y2="110"></line>
-<line stroke="#ece6d8" stroke-width="1" x1="300" x2="180" y1="50" y2="110"></line>
-<line stroke="#ece6d8" stroke-width="1" x1="60" x2="180" y1="170" y2="110"></line>
-<line stroke="#ece6d8" stroke-width="1" x1="300" x2="180" y1="170" y2="110"></line>
+<line stroke="#4c4535" stroke-width="1" x1="60" x2="180" y1="50" y2="50"></line>
+<line stroke="#4c4535" stroke-width="1" x1="180" x2="300" y1="50" y2="50"></line>
+<line stroke="#4c4535" stroke-width="1" x1="60" x2="180" y1="110" y2="110"></line>
+<line stroke="#4c4535" stroke-width="1" x1="180" x2="300" y1="110" y2="110"></line>
+<line stroke="#4c4535" stroke-width="1" x1="60" x2="180" y1="170" y2="170"></line>
+<line stroke="#4c4535" stroke-width="1" x1="180" x2="300" y1="170" y2="170"></line>
+<line stroke="#4c4535" stroke-width="1" x1="60" x2="60" y1="50" y2="170"></line>
+<line stroke="#4c4535" stroke-width="1" x1="180" x2="180" y1="50" y2="170"></line>
+<line stroke="#4c4535" stroke-width="1" x1="300" x2="300" y1="50" y2="170"></line>
+<line stroke="#373123" stroke-width="1" x1="60" x2="180" y1="50" y2="110"></line>
+<line stroke="#373123" stroke-width="1" x1="300" x2="180" y1="50" y2="110"></line>
+<line stroke="#373123" stroke-width="1" x1="60" x2="180" y1="170" y2="110"></line>
+<line stroke="#373123" stroke-width="1" x1="300" x2="180" y1="170" y2="110"></line>
 <g>
-<circle cx="60" cy="50" fill="#faf7f0" r="11" stroke="#c9b27a" stroke-width="1.5"></circle>
-<circle cx="180" cy="50" fill="#faf7f0" r="11" stroke="#c9b27a" stroke-width="1.5"></circle>
-<circle cx="300" cy="50" fill="#faf7f0" r="11" stroke="#c9b27a" stroke-width="1.5"></circle>
-<circle cx="60" cy="110" fill="#faf7f0" r="11" stroke="#c9b27a" stroke-width="1.5"></circle>
-<circle cx="180" cy="110" fill="#f3f0ff" r="13" stroke="#a29bfe" stroke-width="2"></circle>
-<circle cx="300" cy="110" fill="#faf7f0" r="11" stroke="#c9b27a" stroke-width="1.5"></circle>
-<circle cx="60" cy="170" fill="#faf7f0" r="11" stroke="#c9b27a" stroke-width="1.5"></circle>
-<circle cx="180" cy="170" fill="#faf7f0" r="11" stroke="#c9b27a" stroke-width="1.5"></circle>
-<circle cx="300" cy="170" fill="#faf7f0" r="11" stroke="#c9b27a" stroke-width="1.5"></circle>
+<circle cx="60" cy="50" fill="#1d1a13" r="11" stroke="#8f7840" stroke-width="1.5"></circle>
+<circle cx="180" cy="50" fill="#1d1a13" r="11" stroke="#8f7840" stroke-width="1.5"></circle>
+<circle cx="300" cy="50" fill="#1d1a13" r="11" stroke="#8f7840" stroke-width="1.5"></circle>
+<circle cx="60" cy="110" fill="#1d1a13" r="11" stroke="#8f7840" stroke-width="1.5"></circle>
+<circle cx="180" cy="110" fill="#110e1d" r="13" stroke="#171073" stroke-width="2"></circle>
+<circle cx="300" cy="110" fill="#1d1a13" r="11" stroke="#8f7840" stroke-width="1.5"></circle>
+<circle cx="60" cy="170" fill="#1d1a13" r="11" stroke="#8f7840" stroke-width="1.5"></circle>
+<circle cx="180" cy="170" fill="#1d1a13" r="11" stroke="#8f7840" stroke-width="1.5"></circle>
+<circle cx="300" cy="170" fill="#1d1a13" r="11" stroke="#8f7840" stroke-width="1.5"></circle>
 </g>
-<circle cx="180" cy="110" fill="#a29bfe" r="4"></circle>
-<circle cx="60" cy="50" fill="#c9b27a" r="2.5"></circle>
-<circle cx="300" cy="170" fill="#c9b27a" r="2.5"></circle>
-<text fill="#8b7355" font-family="Georgia,serif" font-size="11" text-anchor="middle" x="180" y="206">每颗珠映现其余一切珠 · 一即一切</text>
+<circle cx="180" cy="110" fill="#171073" r="4"></circle>
+<circle cx="60" cy="50" fill="#8f7840" r="2.5"></circle>
+<circle cx="300" cy="170" fill="#8f7840" r="2.5"></circle>
+<text fill="#ab9375" font-family="Georgia,serif" font-size="11" text-anchor="middle" x="180" y="206">每颗珠映现其余一切珠 · 一即一切</text>
 </svg>
 <figcaption>每一结点（宝珠）都映现网中其余所有结点，重重无尽——动一处则牵全网。这既是华严「事事无碍」的图像，也正是生态学「食物网」与复杂网络的拓扑：<strong>没有哪个结点是孤岛</strong>。</figcaption>
 </figure>
